@@ -1,0 +1,18 @@
+INSERT INTO "OFICIALITATE"("NUME", "FUNCTIE", "TARA", "ID_PV", "ID_MASINA")
+VALUES('Calin Bibart', 'Primar Arad', 'Romania', 1, 11)
+
+
+INSERT INTO "OFICIALITATE"("NUME", "FUNCTIE", "TARA", "ID_PV", "ID_MASINA")
+VALUES('Viktor Orban', 'Premier', 'Ungaria', 1, 12)
+
+
+INSERT INTO "OFICIALITATE"("NUME", "FUNCTIE", "TARA", "ID_PV", "ID_MASINA")
+VALUES('Nicolae Robu', 'Primar Timisoara', 'Romania', 1, 13)
+
+
+INSERT INTO "OFICIALITATE"("NUME", "FUNCTIE", "TARA", "ID_PV", "ID_MASINA")
+VALUES('Justin Trudeau', 'Premier', 'Canada', 5, 14)
+
+
+INSERT INTO "OFICIALITATE"("NUME", "FUNCTIE", "TARA", "ID_PV", "ID_MASINA")
+VALUES('AOC', 'Senator California', 'SUA', 5, 15)

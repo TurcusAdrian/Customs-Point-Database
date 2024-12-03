@@ -1,0 +1,18 @@
+INSERT INTO "INDIVID"("CNP", "NUME", "VARSTA", "OCUPATIE", "CAZIER", "SIT_MED", "ID_PV", "ID_MASINA") 
+VALUES('1860620101601', 'Ion Vasile', '48', 'zidar', 'CURAT', 'lipsa brat stang', 1, 16)
+
+
+INSERT INTO "INDIVID"("CNP", "NUME", "VARSTA", "OCUPATIE", "CAZIER", "SIT_MED", "ID_PV", "ID_MASINA") 
+VALUES('2990620326891', 'Lenkova Adelina', '25', 'gimnasta', 'CURAT', 'NU ARE PROBLEME', 2, 17)
+
+
+INSERT INTO "INDIVID"("CNP", "NUME", "VARSTA", "OCUPATIE", "CAZIER", "SIT_MED", "ID_PV", "ID_MASINA") 
+VALUES('1870617310147', 'Kossi Mensah Afanou', '37', 'luptator MMA', 'viol', 'NU ARE PROBLEME', 4, 18)
+
+
+INSERT INTO "INDIVID"("CNP", "NUME", "VARSTA", "OCUPATIE", "CAZIER", "SIT_MED", "ID_PV", "ID_MASINA") 
+VALUES('2960731298573', 'Dupont Elise Marie', '28', 'stewardeza', 'CURAT', 'NU ARE PROBLEME', 3, 19)
+
+
+INSERT INTO "INDIVID"("CNP", "NUME", "VARSTA", "OCUPATIE", "CAZIER", "SIT_MED", "ID_PV", "ID_MASINA") 
+VALUES('2461021283014', 'Donaldson Katie', '78', 'pensionara', 'CURAT', 'handicap locomotor', 5, 20)

@@ -1,0 +1,65 @@
+DESTINATII GRUPURI:
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")  x2
+VALUES (1, 'Mako,Ungaria')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (2, 'Odorheiu Secuiesc,Romania')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (3, 'Toronto,Canada')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (4, 'Porto Novo,Benin')
+
+
+-------------------------------------------------
+
+DESTINATII FAMILII:
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (5, 'Paris,Franta')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (6, 'Barcelona,Spania')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (7, 'Sofia,Bulgaria')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (8, 'Constanta,Romania')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (9, 'Anloga,Togo')
+
+
+-------------------------------------------------
+
+DESTINATII OFICIALITATI:
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (10, 'Gyor,Ungaria')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (11, 'Baile Tusnad,Romania')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (12, 'Nisipurile de Aur,Romania')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (13, 'Austin,Texas,SUA')
+
+
+INSERT INTO "DESTINATIE"("ID_DEST", "LOCATIE")
+VALUES (14, 'Halifax,Canada')

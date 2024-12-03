@@ -1,0 +1,48 @@
+complex view:
+
+CREATE VIEW vedere_complexa AS
+SELECT DISTINCT
+    f.ID_PV,
+    f.ID_FAM, 
+    f.NUME AS NUME_FAMILIE, 
+    f.ADRESA, 
+    i.CNP, 
+    i.NUME AS NUME_INDIVID, 
+    i.VARSTA, 
+    g.ID_GRUP, 
+    g.NR_MEM, 
+    g.NUME_SOFER
+FROM FAMILIE f
+JOIN INDIVID i ON f.ID_PV = i.ID_PV
+JOIN GRUP g ON g.ID_PV = i.ID_PV;
+
+
+simple view:
+
+CREATE VIEW vedere_simpla AS
+SELECT NUME, VARSTA
+FROM COPIL;
+
+
+procedura de adaugare:
+
+CREATE OR REPLACE PROCEDURE add_individ(
+    p_CNP IN CHAR,
+    p_NUME IN VARCHAR2,
+    p_VARSTA IN NUMBER,
+    p_OCUPATIE IN VARCHAR2,
+    p_CAZIER IN VARCHAR2,
+    p_SIT_MED IN VARCHAR2,
+    p_ID_PV IN NUMBER,
+    p_ID_MASINA IN NUMBER
+) AS
+BEGIN
+    INSERT INTO "INDIVID"(
+        "CNP", "NUME", "VARSTA", "OCUPATIE", "CAZIER", "SIT_MED", "ID_PV", "ID_MASINA"
+    ) VALUES (
+        p_CNP, p_NUME, p_VARSTA, p_OCUPATIE, p_CAZIER, p_SIT_MED, p_ID_PV, p_ID_MASINA
+    );
+    COMMIT;
+END;
+/
+

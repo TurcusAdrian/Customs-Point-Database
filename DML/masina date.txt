@@ -1,0 +1,89 @@
+MASINI GRUPURI:
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (1, 'TM 20 FGH', 'Mercedes Sprinter 411', 2002)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (2, 'AABP-022', 'Scania Sideral', 2006)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (3, 'CT 06 AKL', 'Iveco Noge Titanium', 2007)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (4, '1M C7893', 'Setra 250', 1996)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (5, '9867 AE', 'E9 Kubwa', 2023)
+
+
+---------------------------------------------------------------------
+
+MASINI FAMILII:
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (6, '2008 ZGZ', 'Bugatti Turbillion', 2024)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (7, 'AA-229-DB', 'Renault Avantime', 2001)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (8, 'B 467 AHA', 'Dacia 1100', 1970)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (9, 'C 9396HP', 'Lada Niva', 2013)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (10, 'AE8888', 'Volkswagen Caddy Maxi 2.0tdi', 2010)
+
+
+---------------------------------------------------------------------
+
+MASINI OFICIALITATI:
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (11, 'AR 78 CBB', 'Volkswagen Passat', 2015)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (12, 'HKLB-008', 'Toyota Rav 4', 2016)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (13, 'TM 69 RXW', 'Renault Megane', 2022)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (14, 'E59 AAP', 'Ford Mustang', 2015)
+
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR")
+VALUES (15, '7YJL967', 'Hyundai Tucson', 2021)
+
+
+---------------------------------------------------------------------
+
+MASINI INDIVIZI:
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR") -- roman spre ungaria
+VALUES (16, 'CL 34 HGK', 'Volkswagen Golf', 2007)
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR") -- bulgar spre ro
+VALUES (17, 'A 3362MB', 'Skoda Octavia', 2000)
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR") -- togolez spre benin
+VALUES (18, '2574 AL', 'Pagani Cinque', 2009)
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR") -- francez spre spania
+VALUES (19, 'AC-613-ET', 'A6 1500', 1950)
+
+INSERT INTO "MASINA"("ID_MASINA", "NR_INMATR", "MODEL", "AN_FABR") -- american spre canada
+VALUES (20, 'ABC 234', 'Saab 9000', 1984)

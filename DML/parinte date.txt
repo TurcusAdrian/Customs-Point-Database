@@ -1,0 +1,47 @@
+FAMILIA 3:
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('1900521416075', 'Popescu Alin', '34', 'M', 'electrician', 'CURAT', 'NU ARE PROBLEME', 3)
+
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('2790322413596', 'Popescu Roxana', '45', 'F', 'contabila sef', 'conducere sub influenta alcoolului', 'NU ARE PROBLEME', 3)
+
+
+FAMILIA 1:
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('5021119062454', 'Jimenez Hernandez', '22', 'M', 'zidar', 'ucidere din culpa', 'cancer de colon', 1)
+
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('6001002383793', 'Jimenez Carmencita', '4', 'F', 'casnica', 'CURAT', 'sindromul omului de piatra', 1)
+
+
+FAMILIA 5:
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('1700624351774', 'Orou Zizou', '54', 'M', 'inginer civil', 'CURAT', 'NU ARE PROBLEME', 5)
+
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('2670727351912', 'Orou Francoise', '57', 'F', 'avocata', 'uzurpare de calitati oficiale', 'NU ARE PROBLEME', 5)
+
+
+FAMILIA 2:
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('1920813274188', 'Gasquet Clement', '32', 'M', 'bucatar', 'jaf armat', 'diabet', 2)
+
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('2901228278832', 'Gasquet Claire', '34', 'F', 'jurnalista TV', 'CURAT', 'schizofrenie', 2)
+
+
+FAMILIA 4:
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('1850611035662', 'Filipov Antonov', '39', 'M', 'casier', 'CURAT', 'nevazator', 4)
+
+INSERT INTO "PARINTE"("CNP", "NUME", "VARSTA", "SEX", "OCUPATIE", "CAZIER", "SIT_MED", "ID_FAM")
+VALUES('2880615031582', 'Filipov Elena', '42', 'F', 'paznica', 'furt calificat', 'NU ARE PROBLEME', 4)

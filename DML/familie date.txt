@@ -1,0 +1,18 @@
+INSERT INTO "FAMILIE"("ID_FAM", "NUME", "ADRESA", "NR_MEM", "ID_PV", "ID_MASINA")
+VALUES(1, 'Jimenez', 'Carrer del Poeta Antonio Chocomeli 7, Valencia', 3, 3, 6)
+
+
+INSERT INTO "FAMILIE"("ID_FAM", "NUME", "ADRESA", "NR_MEM", "ID_PV", "ID_MASINA")
+VALUES(2, 'Gasquet', 'Rue Moliere 18, Strasbourg', 5, 3, 7)
+
+
+INSERT INTO "FAMILIE"("ID_FAM", "NUME", "ADRESA", "NR_MEM", "ID_PV", "ID_MASINA")
+VALUES(3, 'Popescu', 'Strada Gheorghe Pop de Basesti 43, Bucuresti', 2, 2, 8)
+
+
+INSERT INTO "FAMILIE"("ID_FAM", "NUME", "ADRESA", "NR_MEM", "ID_PV", "ID_MASINA")
+VALUES(4, 'Filipov', 'Blvd Aren Yorda 109, Sofia', 4, 2, 9)
+
+
+INSERT INTO "FAMILIE"("ID_FAM", "NUME", "ADRESA", "NR_MEM", "ID_PV", "ID_MASINA")
+VALUES(5, 'Orou', 'Blvd Porto Novo Adjara, Porto Novo', 6, 4, 10)

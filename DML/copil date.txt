@@ -1,0 +1,45 @@
+Familie 3:
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Jimenez Roberto', 15, 'Scoala San Miguel', 'NU ARE PROBLEME', 1)
+
+
+Familie 5:
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Orou Ayaba', 20, 'Universitatea Kara', 'miopie', 5);
+
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Orou Kodjo', 12, 'Scoala Saint Pierre', 'NU ARE PROBLEME', 5);
+
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Orou Akouavi', 10, 'Scoala Sainte Anne', 'ASTM', 5);
+
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Orou Komi', 19, 'Universitatea Lome', 'NU ARE PROBLEME', 5);
+
+
+Familie 2:
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Gasquet Pierre', 16, 'Scoala Victor Hugo', 'NU ARE PROBLEME', 2);
+
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Gasquet Lucille', 19, 'Universitatea Paris-Sorbonne', 'NU ARE PROBLEME', 2);
+
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Gasquet Luc', 13, 'Scoala Saint-Jean', 'hemofilie', 2);
+
+
+Familie 4:
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Filipov Aleksandar', 14, 'Scoala Dimitrov', 'NU ARE PROBLEME', 4);
+
+INSERT INTO "COPIL"("NUME", "VARSTA", "SCOALA/UNIV", "SIT_MED", "ID_FAM")
+VALUES('Filipov Constantina', 19, 'Universitatea Sofia', 'picior rupt', 4);

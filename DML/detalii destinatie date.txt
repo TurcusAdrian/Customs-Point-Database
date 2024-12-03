@@ -1,0 +1,68 @@
+DETALII_DESTINATII GRUPURI:
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (1, 'relaxare', 1)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (2, 'vizita rude', 2)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (3, 'tratament', 1)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (4, 'concert Celine Dion', 3)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (5, 'intalnire afaceri', 4)
+
+------------------------------------------------------------------
+
+DETALII_DESTINATII FAMILII:
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (6, 'city break', 5)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (7, 'pelerinaj', 6)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (8, 'concert The Big Four', 7)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (9, 'Ziua Marinei', 8)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (10, 'achizitie barca', 9)
+
+
+------------------------------------------------------------------
+
+DETALII_DESTINATII OFICIALITATE:
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (11, 'meci handbal', 10)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (12, 'discurs politic', 11)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (13, 'relaxare', 12) 
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (14, 'achizie avioane de lupta', 13)
+
+
+INSERT INTO "DETALII_DESTINATIE"("ID_DET_DEST", "TIP", "ID_DEST")
+VALUES (15, 'comemorare victim Halifax', 14)

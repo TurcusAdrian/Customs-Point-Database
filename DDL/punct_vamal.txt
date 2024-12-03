@@ -1,0 +1,21 @@
+CREATE TABLE "PUNCT VAMAL"(
+    "ID_PV" NUMBER(4),
+    "TARI" VARCHAR2(75),
+    "ASEZ_APROP" VARCHAR2(50),
+    "DATA" DATE,
+    "NON STOP" CHAR(1),
+    "LONG" NUMBER(9,6),
+    "LAT" NUMBER(8,6),
+    PRIMARY KEY("ID_PV") USING INDEX ENABLE
+);
+
+
+TARI constraint:
+ALTER TABLE "PUNCT VAMAL"
+ADD CONSTRAINT check_tari_format
+CHECK (REGEXP_LIKE(TARI, '^[a-zA-Z0-9]+-[a-zA-Z0-9]+$'));
+
+ASEZ_APROP constraint:
+ALTER TABLE "PUNCT VAMAL"
+ADD CONSTRAINT check_asezaprop_format
+CHECK (REGEXP_LIKE(ASEZ_APROP, '^[a-zA-Z0-9]+,[a-zA-Z0-9]+$'));
