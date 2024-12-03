@@ -46,3 +46,51 @@ BEGIN
 END;
 /
 
+
+EXEC add_individ('1860617517036', 'Ion Popescu', 30, 'Inginer', 'CURAT', 'SANATOS', 1, 10);
+
+procedura de afisare:
+
+CREATE OR REPLACE PROCEDURE display_data_by_destination(
+    p_id_dest IN NUMBER
+) AS
+BEGIN
+    FOR record IN (
+        SELECT 
+            f.ID_FAM,
+            f.NUME AS NUME_FAMILIE,
+            g.ID_GRUP,
+            g.NUME_SOFER,
+            o.NUME AS NUME_OFICIALITATE,
+            o.FUNCTIE
+        FROM 
+            "FAMILIE_DESTINATIE" fd
+        JOIN 
+            "FAMILIE" f ON fd.ID_FAM = f.ID_FAM
+        JOIN 
+            "GRUP_DESTINATIE" gd ON gd.ID_DEST = fd.ID_DEST
+        JOIN 
+            "GRUP" g ON gd.ID_GRUP = g.ID_GRUP
+        JOIN 
+            "OFICIALITATE_DESTINATIE" od ON od.ID_DEST = fd.ID_DEST
+        JOIN 
+            "OFICIALITATE" o ON od.NUME = o.NUME
+        WHERE 
+            fd.ID_DEST = p_id_dest
+    ) LOOP
+        DBMS_OUTPUT.PUT_LINE('ID Familie: ' || record.ID_FAM);
+        DBMS_OUTPUT.PUT_LINE('Nume Familie: ' || record.NUME_FAMILIE);
+        DBMS_OUTPUT.PUT_LINE('ID Grup: ' || record.ID_GRUP);
+        DBMS_OUTPUT.PUT_LINE('Nume Șofer: ' || record.NUME_SOFER);
+        DBMS_OUTPUT.PUT_LINE('Nume Oficialitate: ' || record.NUME_OFICIALITATE);
+        DBMS_OUTPUT.PUT_LINE('Funcție Oficialitate: ' || record.FUNCTIE);
+        DBMS_OUTPUT.PUT_LINE('---------------------------------------');
+    END LOOP;
+END;
+/
+
+
+BEGIN
+    display_data_by_destination(11); 
+END;
+/
