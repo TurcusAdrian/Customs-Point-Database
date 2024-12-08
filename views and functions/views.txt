@@ -49,6 +49,7 @@ END;
 
 EXEC add_individ('1860617517036', 'Ion Popescu', 30, 'Inginer', 'CURAT', 'SANATOS', 1, 10);
 
+
 procedura de afisare:
 
 CREATE OR REPLACE PROCEDURE display_data_by_destination(
